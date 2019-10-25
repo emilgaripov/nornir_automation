@@ -1,0 +1,224 @@
+SW1:
+  port: 32779
+  hostname: 192.168.32.60
+  groups:
+    - nornir_labs
+  data:
+    tags:
+      - ios 15
+  connection_options:
+    netmiko:
+       extras:
+         device_type: 'cisco_ios_telnet'
+    napalm:
+       extras:
+         optional_args:
+            transport: 'telnet'    
+SW2:
+  port: 32780
+  hostname: 192.168.32.60
+  groups:
+    - nornir_labs
+  data:
+    tags:
+      - ios 15
+  connection_options:
+    netmiko:
+       extras:
+         device_type: 'cisco_ios_telnet'
+    napalm:
+       extras:
+         optional_args:
+            transport: 'telnet'    
+SW3:
+  port: 32781
+  hostname: 192.168.32.60
+  groups:
+    - nornir_labs
+  data:
+    tags:
+      - ios 15
+  connection_options:
+    netmiko:
+       extras:
+         device_type: 'cisco_ios_telnet'
+    napalm:
+       extras:
+         optional_args:
+            transport: 'telnet'    
+SW4:
+  port: 32782
+  hostname: 192.168.32.60
+  groups:
+    - nornir_labs
+  data:
+    tags:
+      - ios 15
+  connection_options:
+    netmiko:
+       extras:
+         device_type: 'cisco_ios_telnet'
+    napalm:
+       extras:
+         optional_args:
+            transport: 'telnet'
+R1:
+  port: 32769
+  hostname: 192.168.32.60
+  groups:
+    - nornir_labs
+  data:
+    tags:
+      - ios 15
+  connection_options:
+    netmiko:
+       extras:
+         device_type: 'cisco_ios_telnet'
+    napalm:
+       extras:
+         optional_args:
+            transport: 'telnet'    
+R2:
+  port: 32770
+  hostname: 192.168.32.60
+  groups:
+    - nornir_labs
+  data:
+    tags:
+      - ios 15
+  connection_options:
+    netmiko:
+       extras:
+         device_type: 'cisco_ios_telnet'
+    napalm:
+       extras:
+         optional_args:
+            transport: 'telnet'    
+R3:
+  port: 32771
+  hostname: 192.168.32.60
+  groups:
+    - nornir_labs
+  data:
+    tags:
+      - ios 15
+  connection_options:
+    netmiko:
+       extras:
+         device_type: 'cisco_ios_telnet'
+    napalm:
+       extras:
+         optional_args:
+            transport: 'telnet'    
+R4:
+  port: 32772
+  hostname: 192.168.32.60
+  groups:
+    - nornir_labs
+  data:
+    tags:
+      - ios 15
+  connection_options:
+    netmiko:
+       extras:
+         device_type: 'cisco_ios_telnet'
+    napalm:
+       extras:
+         optional_args:
+            transport: 'telnet'   
+R5:
+  port: 32773
+  hostname: 192.168.32.60
+  groups:
+    - nornir_labs
+  data:
+    tags:
+      - ios 15
+  connection_options:
+    netmiko:
+       extras:
+         device_type: 'cisco_ios_telnet'
+    napalm:
+       extras:
+         optional_args:
+            transport: 'telnet'    
+R6:
+  port: 32774
+  hostname: 192.168.32.60
+  groups:
+    - nornir_labs
+  data:
+    tags:
+      - ios 15
+  connection_options:
+    netmiko:
+       extras:
+         device_type: 'cisco_ios_telnet'
+    napalm:
+       extras:
+         optional_args:
+            transport: 'telnet'    
+R7:
+  port: 32775
+  hostname: 192.168.32.60
+  groups:
+    - nornir_labs
+  data:
+    tags:
+      - ios 15
+  connection_options:
+    netmiko:
+       extras:
+         device_type: 'cisco_ios_telnet'
+    napalm:
+       extras:
+         optional_args:
+            transport: 'telnet'    
+R8:
+  port: 32776
+  hostname: 192.168.32.60
+  groups:
+    - nornir_labs
+  data:
+    tags:
+      - ios 15
+  connection_options:
+    netmiko:
+       extras:
+         device_type: 'cisco_ios_telnet'
+    napalm:
+       extras:
+         optional_args:
+            transport: 'telnet'
+R9:
+  port: 32777
+  hostname: 192.168.32.60
+  groups:
+    - nornir_labs
+  data:
+    tags:
+      - ios 15
+  connection_options:
+    netmiko:
+       extras:
+         device_type: 'cisco_ios_telnet'
+    napalm:
+       extras:
+         optional_args:
+            transport: 'telnet'    
+R10:
+  port: 32778
+  hostname: 192.168.32.60
+  groups:
+    - nornir_labs
+  data:
+    tags:
+      - ios 15
+  connection_options:
+    netmiko:
+       extras:
+         device_type: 'cisco_ios_telnet'
+    napalm:
+       extras:
+         optional_args:
+            transport: 'telnet'
